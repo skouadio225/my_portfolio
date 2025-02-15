@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="text-3xl font-bold underline text-red-700">
-      Tailwind fonctionne ! 🎉
+    <div>
+      <div className="p-5 md:px-[15%]">
+        <Navbar/>
+      </div>
     </div>
   );
 }
